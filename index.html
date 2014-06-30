@@ -1,103 +1,154 @@
-<!-- COMMENTS HERE -->
+---
+layout: headerfooter
+title: Rise of //Code
+---
 
-<head> 
-	<link rel="stylesheet" href="stylesheet.css" type="text/css">
-	<title>
-		Rise of Code
-	</title>
-	<script src="jquery.js" type="text/javascript"></script>
-	<script src="scripts.js" type="text/javascript"></script>
-</head>
-<body>
-
-<div class="toplogo">
-	<a href="http://www.riseofcode.com">RISE OF <br> 
-	//CODE</a>
+<div class="section">
+	<div class="container">
+		<div class="row">
+			<div class="col-lg-6 text">
+				<h1 class="colorchange logo">Rise of //Code</h1>
+				<h4> High-tech workshops <br> for young people </h4>
+			</div>
+			<div class="col-lg-6 video">
+				<iframe width="560" height="315" src="//www.youtube.com/embed/WDlEr-LxRAM" frameborder="0" allowfullscreen></iframe>
+			</div>
+			<div class="col-lg-6 button">
+				<a href="#signup" class="btn btn-default btn-lg signup-button colorchange">Sign up now</a>
+			</div>			
+		</div>
+	</div>
 </div>
 
-	<ul class="menu">
-		<!--<li><a href="news.asp">Classes</a></li>-->
-		<li><a href="mailto:katie.elizabeth.williams@gmail.com">Contact</a></li>
-		<li><a href="/about.html">About</a></li>
-		<li><a href="/">Home</a></li>
-	</ul>
+<div class="section blue getwiththeprogram">
+	<div class="container">
+		<div class="row">
+			<div class="col-lg-6 text">
+				<h1>
+					Technology <br> is our future. <br>
+				</h1>
+				<h4>
+					Get with the program, and <br>
+					learn cool, cutting-edge skills!
 
-	<div class="second-container">
-	<div class="left">
-	<span class="colorchange">Rise of //Code</span><br>tech classes<br> for young people.
-	</div>
-	<img src="Circuitboard.png">
-	</div>
-
-	<div class="classes-second-container">
-		<div class="text-holder">
-			<div class="text">Hands-on Hardware <br></div>
-			<div class="subtext"> Get a tangible understanding of how <br>technology works 
-				by programming <br> everything from lightbulbs to robots <br> using tools like Arduino. 
+				</h4>
+			</div>
+			<div class="col-lg-6">
+				<div class="thumbnail">
+					<img src="rocpic1.png">
+				</div>
 			</div>
 		</div>
-	<img src="arduino.png">
-
-<div class="clear">
+	</div>
 </div>
-	</div>
 
-
-	<div class="third-container">
-		<div class="text-holder">
-			<div class="text">
-				Design awesome websites.
+<div class="section white bestworkshops">
+	<div class="container">
+		<div class="row">
+			<div class="col-lg-10 col-lg-offset-1 text-center">
+				<h1 class="roc-font"> <span class="colorchange">RISE OF //CODE </span> workshops are the best. </h1>
 			</div>
-			<div class="subtext">
-		Easily learn HTML, CSS, & Javascript <br>
-		to make functional (and cool) websites!
+			<div class="col-lg-12 ">
+				<div class="container">
+
+					<div class="col-lg-4">
+						<div class="thumbnail">
+							<div class="icon">
+								<img src="space2.png">
+							</div>
+							<div class="caption">
+								<h4> Real tech expert mentors.</h4>
+							</div>
+						</div>
+					</div>	
+
+					<div class="col-lg-4">
+						<div class="thumbnail">						
+							<div class="icon">
+								<img src="space1.png" style="margin-top:20px;">
+							</div>
+							<div class="caption">
+								<h4>Hands-on projects & real coding.</h4>
+							</div>
+						</div>						
+					</div>		
+
+					<div class="col-lg-4">
+						<div class="thumbnail">
+							<div class="icon">
+								<img src="space3.png">
+							</div>
+							<div class="caption">
+								<h4>Make new friends & get inspired!</h4>
+							</div>
+						</div>
+					</div>
+
+				</div>
 			</div>
 		</div>
-		<img src="computer.png">
 	</div>
-	
+</div>
+
+<div class="section yellow signup" id="signup">
+	<div class="container">
+		<div class="row">
+			<div class="col-lg-8 col-lg-offset-3 text">
+				<h1>
+				Be the first to know when <br><span class="colorchange">Rise of //Code</span> launches!
+				</h1>
+			</div>
 
 
-	<div class="fourth-container">
-		<div class="text">
-			Be the first to know when <br><span class="colorchange">Rise of Code</span> launches!
+			<div class="col-xs-12 col-sm-10 col-sm-offset-1 col-md-10 col-md-offset-1 col-lg-4 col-lg-offset-4">
+                <h2 class=" text-center roc-font"><br>Sign-up now</h2>
+                <form method="post" action="/mail.php" role="form">
+                    <div class="form-group">
+                        <div class="controls">
+                            <input type="text" class="input-lg form-control" id="formName" placeholder="Name" name="name">
+                        </div>
+                    </div>
+                    <div class="form-group">
+                        <div class="controls">
+                            <input type="text" class="input-lg form-control" id="formMail" placeholder="Email" name="email">
+                        </div>
+                    </div>
+                    <div class="form-group">
+                        <div class="controls">
+                            <input type="text" class="input-lg form-control" id="formSchool" placeholder="School" name="school">
+                        </div>
+                    </div>
+                    <div class="form-group">
+                        <div class="controls">
+                            <input type="text" class="input-lg form-control" id="formAge" placeholder="Age" name="age">
+                        </div>
+                    </div>
+                    <div class="form-group">
+                        <div class="controls">
+                            <input type="submit" class="input-lg btn btn-block btn-default signup-button colorchange" value="Sign me up" style="font-size:20px">
+                        </div>
+                    </div>
+                </form>
+             </div>
 		</div>
-		<div class="signup-form">	
-			<form action="mail.php">
-				<table>
-					<tr><td class="label">Name</td> <td><input type="text" name="name"></td></tr>
-					<tr><td class="label">Age</td> <td><input type="text" age="age"></td></tr>
-					<tr><td class="label">Email</td><td> <input type="text" name="e-mail"></td></tr>
-					</select></td></tr>
-					<tr><td class="label">School</td><td><input type="text" name="School"></td></tr>
-					<tr><td class="label">Interested in</td> <td class="interests">
-						<input type="checkbox" name="Interests[]" value="Hardware">Hardware (Arduino, Circuits, etc.)<br>
-						<input type="checkbox" name="Interests[]" value="Programming">Programming (HTML, CSS, Javascript)<br>
-						<input type="checkbox" name="Interests[]" value="3D Printing">3D Printing<br>
-						<input type="checkbox" name="Interests[]" value="Graphic Design">Graphic Design<br>
-						</td></tr>
-					<tr><td></td> <td> <button> Sign me up! </button> </td></tr>
-				</table>
-			</form>
+	</div>
+</div>
+
+<div class="section testimonials">
+	<div class="container">
+		<div class="row">
+			<div class="col-xs-12 col-sm-12 col-md-8 col-lg-6">
+				<img src="testimonial1.png" style="width:150px;" class="pull-left">
+				<h2>Werner Vogels</h2>
+				<h3>CTO &amp; VP Amazon</h3>
+				<p>“I see a lot of opportunities in the data Owlin collects, the fact that they are able to do real-time analysis is in my opinion very valuable.”</p>
+			</div>
+			<div class="col-xs-12 col-sm-12 col-md-8 col-md-offset-4 col-lg-6 col-lg-offset-0">
+				<img src="testimonial2.png" style="width:150px;" class="pull-left">
+				<h2>Boris Veldhuijzen van Zanten</h2>
+				<h3>Co-Founder The Next Web</h3>
+				<p>“Real-time news analysis is a hot topic. Owlin provides a powerful solution that goes way beyond our own digital sense. It's a very promising idea for a promising market.”</p>
+			</div>
 		</div>
-	</div>
-
-	<div class="footer">
-	<div class="text">
-		<ul class="menu">
-			<!--<li><a href="news.asp">Classes</a></li>-->
-			<li><a href="mailto:katie.elizabeth.williams@gmail.com">Contact</a></li>
-			<li><a href="/about.html">About</a></li>
-			<li><a href="/">Home</a></li>
-		</ul>
-	</div>
-	</div>
-</body>
-
-<!--
-<option value="Hardware (Arduino)">Hardware (Arduino)</option>
-						<option value="Programming (HTML, CSS, Javascript)">Programming (HTML, CSS, Javascript)</option>	
-						<option value="3D Printing">3D Printing</option>
-						<option value="Graphic Design">Graphic Design</option>
-
-
+  	</div>
+</div>

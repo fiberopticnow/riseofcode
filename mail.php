@@ -15,4 +15,4 @@ mail ( "katie.elizabeth.williams@gmail.com" ,
 		Rise of Code");
 
 
-header("Location: signup_success.html");
+header("Location: http://www.eventbrite.com/o/rise-of-code-6585748783");
