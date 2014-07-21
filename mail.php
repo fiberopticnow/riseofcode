@@ -5,9 +5,9 @@ mail ( "katie.elizabeth.williams@gmail.com" ,
 		"New message from the website:
 
 		Name: ".$_GET['name']."
-		e-mail: ".$_GET['e-mail']."
-		School: ".$_GET ['School']."
-		Interests: ".implode(", ", $_GET['Interests'])."
+		e-mail: ".$_GET['email']."
+		School: ".$_GET ['school']."
+		Age: ".$_GET['age']."
 
 
 		Kind regards, 

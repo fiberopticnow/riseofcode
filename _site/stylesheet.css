@@ -132,6 +132,9 @@ body {
 .section.yellow {
 	background:#6633FF;
 }
+.section.green {
+	background: #33CC99;
+}
 
 .section .blue .getwiththeprogram .h4 {
 	padding-top: 10px;
@@ -150,6 +153,7 @@ body {
 	font-size:100px; 
 }
 
+.section.teamphotos .icon,
 .section.bestworkshops .icon {
 	height:150px;
 	text-align: center;
@@ -159,6 +163,7 @@ body {
 	font-size: 30px;
 	font-family: UniSansBookItalicItalic;
 }
+.section.teamphotos .thumbnail,
 .section.bestworkshops .thumbnail {
 	border:none;
 	margin-top: 30px;
@@ -169,9 +174,10 @@ body {
 	height:400px;
 }
 
-.section.testimonials {
-	background: #33CC99;
+.section.teamphotos .icon {
+	height:200px;
 }
+
 /* 
 ███╗   ██╗ █████╗ ██╗   ██╗██╗ ██████╗  █████╗ ████████╗██╗ ██████╗ ███╗   ██╗    ██████╗  █████╗ ██████╗ 
 ████╗  ██║██╔══██╗██║   ██║██║██╔════╝ ██╔══██╗╚══██╔══╝██║██╔═══██╗████╗  ██║    ██╔══██╗██╔══██╗██╔══██╗
