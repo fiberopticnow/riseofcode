@@ -155,7 +155,7 @@ body {
 
 .section.teamphotos .icon,
 .section.bestworkshops .icon {
-	height:150px;
+	height:320px;
 	text-align: center;
 }
 .section.bestworkshops h4 {
@@ -193,6 +193,7 @@ body {
 /* Give the logo in the top navigation bar a different font */
 .navbar-brand {
 	font-family: 'UniSansHeavyItalicItalic';
+	color: rgb(204, 0, 155) !important;
 }
 /*
 
